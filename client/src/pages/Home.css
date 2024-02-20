@@ -1,0 +1,128 @@
+.insetShadow{
+  box-shadow: -5px -5px 40px rgba(0, 0, 0, 0.5);
+}
+
+.homeProjectShadow{
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.5);
+}
+
+.projects{
+  margin: 10px ;
+  height: 480px;
+  overflow-y: scroll;
+  box-shadow: -5px -5px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for the entire page with a subtle background animation */
+.myflex {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* background-size: 400% 400%; */
+  /* animation: gradientAnimation 15s infinite alternate !important; */
+}
+
+/* Style for the search bar and icons with hover effect and animation */
+.myflex > div {
+  margin-right: 10px;
+}
+
+/* Style for the search bar */
+.MuiTextField-root {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Style for the search and filter buttons */
+.myflex > div > a,
+.myflex > div > div {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.myflex > div > a:hover,
+.myflex > div > div:hover {
+  background-color: #6b879b;
+  transform: translateY(-2px);
+}
+
+/* Style for the project container */
+/* .projects {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
+/* Style for the individual project card with hover effect and animation */
+.slick-slide {
+  flex-basis: calc(50% - 20px);
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease !important;
+}
+
+.slick-slide:hover {
+  transform: translateY(-5px);
+}
+
+.slick-slide h2 {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.slick-slide p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Style for the slick slider dots */
+.slick-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0;
+}
+
+.slick-dots button {
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slick-dots button:hover {
+  background-color: #6b879b;
+}
+
+/* Banner Styles */
+.banner {
+  background-image: url("../assets/banImg.png"); /* Replace with your banner image URL */
+  margin-top: -130px;
+  height: 590px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  /* text-align: center; */
+  /* color: #fff; */
+  /* padding: 250px 0; */
+}

@@ -1,0 +1,72 @@
+/* Footer Styles */
+.footer {
+  background-color: #6b879b;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+  padding: 40px 0;
+  text-align: center; /* Center text within the footer */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+/* Newsletter Form */
+.footer-section form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-section input[type="email"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-section button[type="submit"] {
+  background-color: #adc4ce;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer-section button[type="submit"]:hover {
+  background-color: #6b879b;
+}
+
+/* Google Map */
+/* Style your Google Map iframe here, set width, height, and any other styles */

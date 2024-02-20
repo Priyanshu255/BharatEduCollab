@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Quicksand&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  background-color: #f1f0e8;
+}
+
+.effect:hover {
+  cursor: pointer;
+  background-color: #6b879b;
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+}
+
+.commonShadow{
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+.projectCard:hover{
+  /* background-color: #6b879b; */
+  transform: translateY(-4px);
+  transition: transform 0.4s ease;
+  /* color: white; */
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+  height: 0px;
+  background-color: transparent !important;
+}
+
+::-webkit-scrollbar-thumb{
+  /* background-color: #94a0a4; */
+  background-color: rgba(131, 104, 206, 0.87);
+  margin: 8px;
+  border-radius: 40px;
+}

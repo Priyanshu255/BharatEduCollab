@@ -1,0 +1,125 @@
+.profile-picture:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+/* University Container */
+.university-container,
+.student-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s infinite alternate !important;
+  transition: transform 0.3s ease;
+}
+
+.university-container:hover,
+.student-container:hover {
+  transform: scale(1.02); /* Enlarge on hover */
+}
+
+/* Profile Card */
+.profile-card {
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #96b6c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center profile content horizontally */
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px); /* Elevate on hover */
+}
+
+.profile-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px; /* Add margin to separate title from content */
+  text-align: center; /* Center profile title horizontally */
+}
+
+/* Profile Picture (Circular) */
+.profile-picture {
+  background-color: #adc4ce;
+  padding: 20px;
+  width: 140px;
+  height: auto; /* Allow the height to adjust as needed */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Add margin to separate picture from info */
+  transition: transform 0.3s ease;
+}
+
+/* Profile Info (Centered) */
+.profile-info {
+  text-align: center; /* Center profile info horizontally */
+}
+
+.profile-info h1 {
+  margin: 5px 0;
+}
+
+/* Projects Container */
+.projects-container {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  background-color: #96b6c5;
+  transition: transform 0.3s ease;
+}
+
+.projects-container:hover {
+  transform: translateY(-10px); /* Elevate on hover */
+}
+
+/* Projects Header */
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.projects-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-button {
+  background-color: #adc4ce;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #6b879b; /* Change color on hover */
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Add your gradient styles here */
